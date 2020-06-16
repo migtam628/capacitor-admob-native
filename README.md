@@ -166,8 +166,10 @@ const { AdMob } = Plugins;
 export class AdMobComponent {
   options: AdOptions = {
     adId: "YOUR ADID",
-    adSize: AdSize.BANNER,
-    position: AdPosition.BOTTOM_CENTER
+    adSize: AdSize.SMART_BANNER,
+    position: AdPosition.BOTTOM_CENTER,
+    margin: 50,
+    hasTabBar: true
   };
 
   constructor() {
@@ -266,10 +268,8 @@ const { AdMob } = Plugins;
 export class AppComponent {
   options: AdOptions = {
     adId: "Your AD_Id",
-    adSize: AdSize.SMART_BANNER,
-    position: AdPosition.BOTTOM_CENTER,
-    hasTabBar: false, // make it true if you have TabBar Layout.
-    tabBarHeight: 56 // you can assign custom margin in pixel default is 56
+    autoShow: true,
+    isTesting: true
   };
 
   constructor() {
@@ -341,7 +341,10 @@ const { AdMob } = Plugins;
 })
 export class AAdMobComponent {
   options: AdOptions = {
-    adId: "YOUR ADID"
+    adId: "YOUR ADID",
+    autoShow: true,
+    isTesting: true
+    
   };
 
   constructor() {
@@ -455,6 +458,7 @@ interface AdOptions {
   adId: string;
   adSize?: AdSize;
   position?: AdPosition;
+  margin?: string;
   hasTabBar?: boolean; // optional: default false
   tabBarHeight?: number; // set cutom height in pixal default is 56
   userId?: string; // RewardedVideo ONLY, Optional user ID useful when using SSV// Height in Pixal

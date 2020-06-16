@@ -1,6 +1,7 @@
 {
   "name": "capacitor-admob-native",
   "version": "0.1.0",
+  "homepage": "https://github.com/migtam628/capacitor-admob-native",
   "description": "This is Ionic Capacitor native AdMob plugin for IOS & Android",
   "main": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -43,9 +44,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/migtam628/capacitor-admob"
+    "url": "https://github.com/migtam628/capacitor-admob-native"
   },
   "bugs": {
-    "url": "https://github.com/migtam628/capacitor-admob/issues"
+    "url": "https://github.com/migtam628/capacitor-admob-native/issues"
   }
 }
