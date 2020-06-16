@@ -2,7 +2,7 @@
   <img width="50%" height="auto" src="https://vignette.wikia.nocookie.net/logopedia/images/2/23/Admob12.png/revision/latest?cb=20190109132636">
 </p>
 
-# [Capacitor AdMob](https://github.com/rahadur/capacitor-admob) 💸
+# [Capacitor AdMob](https://github.com/migtam628/capacitor-admob) 💸
 
 Capacitor AdMob is a native AdMob implementation for IOS & Android. Now you can use this package as a [Ionic Capacitor](https://capacitor.ionicframework.com) Plugin in your App.
 
@@ -23,26 +23,6 @@ Capacitor AdMob is a native AdMob implementation for IOS & Android. Now you can 
 
 - [x] iOS
 - [x] Android
-
-## Other Plugins:
-
-| Plugins                                             | Android | iOS | Electron | PWA |
-| :-------------------------------------------------- | :------ | :-- | :------- | :-- |
-| [MoPub](https://github.com/rahadur/capacitor-mopub) | ✅      | ❌  | ❌       | ❌  |
-
-# 💰 For a Few Dollars More
-
-Thanks for considering donate.
-
-If this plugin help you to earn few dollars, please don't forget to share your profit, because **"Sharing is Caring"**. Your donation will inspire me a lot to give more time on open-source project & help you by creating more useful plugins.
-
-| Methond   | Type    | Amount | Link                                                                                             |
-| :-------- | :------ | :----- | :----------------------------------------------------------------------------------------------- |
-| Paypal.me | Once    | Any    | [paypal.me](https://www.paypal.me/xplatform)                                                     |
-| Paypal    | Monthly | \$5    | [paypal.com](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=76FEY9XUD9A98) |
-| Paypal    | Monthly | \$10   | [paypal.com](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HUQLAF8W5M2FA) |
-| Paypal    | Monthly | \$25   | [paypal.com](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RWELCRVN64GHC) |
-| Paypal    | Monthly | \$50   | [paypal.com](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7C4EEH6ELENKA) |
 
 ## AdMob Demo App
 
