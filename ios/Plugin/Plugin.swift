@@ -31,7 +31,18 @@ public class AdMob: CAPPlugin, GADBannerViewDelegate, GADInterstitialDelegate, G
 
             let adSize = call.getString("adSize") ?? "SMART_BANNER"
             let adPosition = call.getString("position") ?? "BOTTOM_CENTER"
-            let adMargin = call.getString("margin") ?? "0"
+            var adMargin = call.getString("margin") ?? "0"
+            var tabBarHeight = call.getString("tabBarHeight") ?? 0
+            let hasTabBar = call.getString("hasTabBar") ?? false
+
+            if (adPosition == "BOTTOM_CENTER" && hasTabBar == true) {
+                adMargin = 50
+            } 
+            if ( adPosition == "TOP_CENTER") {
+                adMargin = 130
+            }
+
+
             var bannerSize = kGADAdSizeBanner
 
             switch (adSize) {
