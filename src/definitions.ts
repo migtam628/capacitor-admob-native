@@ -11,7 +11,7 @@ export interface AdMobPlugin {
   initialize(options: { appId: string }): Promise<{ value: boolean }>
 
   // set testDeviceIdentifiers
-  testDeviceIdentifiers( testDeviceId: string ): Promise<{ value: boolean }>
+  testDeviceIdentifiers( testDeviceId: string ): Promise<{ value: string }>
 
   // Show a banner Ad
   showBanner(options: AdOptions): Promise<{ value: boolean }>
