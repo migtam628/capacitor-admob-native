@@ -8,6 +8,7 @@ CAP_PLUGIN(AdMob, "AdMob",
            // Banner AD
            
            CAP_PLUGIN_METHOD(initialize, CAPPluginReturnPromise);
+           CAP_PLUGIN_METHOD(setTestDeviceIdentifiers, CAPPluginReturnPromise);
            CAP_PLUGIN_METHOD(showBanner, CAPPluginReturnPromise);
            CAP_PLUGIN_METHOD(resumeBanner, CAPPluginReturnPromise);
            CAP_PLUGIN_METHOD(hideBanner, CAPPluginReturnPromise);
