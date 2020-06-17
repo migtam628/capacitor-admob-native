@@ -21,6 +21,12 @@ public class AdMob: CAPPlugin, GADBannerViewDelegate, GADInterstitialDelegate, G
         call.success([ "value": appId ])
     }
 
+    @objc func testDeviceIdentifiers(_ call: CAPPluginCall) {
+        let testDeviceId = call.getString("testDeviceId") ?? ""
+        GADMobileAds.sharedInstance().requestConfiguration.testDeviceIdentifiers = [testDeviceId]
+        call.success(["value": testDeviceId])
+    }
+
     @objc func showBanner(_ call: CAPPluginCall) {
         DispatchQueue.main.async {
             var adId = call.getString("adId") ?? "ca-app-pub-3940256099942544/6300978111"
